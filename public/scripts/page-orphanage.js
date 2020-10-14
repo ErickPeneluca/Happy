@@ -26,7 +26,7 @@ const icon = L.icon({
 L
 .marker([-3.7522141,-38.535286], { icon })
 .addTo(map)
-
+.bindPopup(popup)
 // image gallery
 
 function selectImage(event) {
